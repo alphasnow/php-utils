@@ -2,16 +2,16 @@ name: PHPUnit
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
   pull_request:
-    branches: ["master"]
+    branches: ["main"]
 
 jobs:
   test:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-18.04]
+        os: [ubuntu-latest]
         php: [7.2, 7.3, 7.4]
         dependency-version: [prefer-lowest, prefer-stable]
 
