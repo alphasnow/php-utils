@@ -11,7 +11,3 @@
 [Full Changelog](https://github.com/overtrue/wechat/compare/1.0.0...1.1.0)
 
 - first online version
-
-## [1.0.0](https://github.com/overtrue/wechat/tree/1.0.0) (2017-10-11)
-
-- create project
