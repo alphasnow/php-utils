@@ -1,0 +1,50 @@
+{
+    "name": "alphasnow/utils",
+    "description": "PHP utils package",
+    "keywords": [
+        "php",
+        "tool kit",
+        "work box"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/alphasnow/php-utils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alphasnow",
+            "email": "wind91@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.4",
+        "phpstan/phpstan": "^1.8",
+        "phpunit/phpunit": "^8.5.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlphaSnow\\Utils\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlphaSnow\\Utils\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "fix-style": "vendor/bin/php-cs-fixer fix --using-cache=no --config=.php-cs-fixer.dist.php --ansi",
+        "phpstan": "vendor/bin/phpstan analyse --memory-limit=-1",
+        "test": "vendor/bin/phpunit --testdox"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
