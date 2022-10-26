@@ -1,5 +1,7 @@
 AlphaSnow/Utils
 ===========
+[![tests](https://github.com/alphasnow/aliyun-oss-laravel/actions/workflows/tests.yml/badge.svg)](https://github.com/alphasnow/aliyun-oss-laravel/actions/workflows/tests.yml)
+
 
 ## Requirement
 - PHP >= 7.2
