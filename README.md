@@ -1,6 +1,6 @@
 AlphaSnow/Utils
 ===========
-
+[![Latest Unstable Version](http://poser.pugx.org/alphasnow/utils/v/unstable)](https://packagist.org/packages/alphasnow/utils)
 [![Latest Stable Version](https://poser.pugx.org/alphasnow/utils/v/stable)](https://packagist.org/packages/alphasnow/utils)
 [![Total Downloads](https://poser.pugx.org/alphasnow/utils/downloads)](https://packagist.org/packages/alphasnow/utils)
 [![tests](https://github.com/alphasnow/php-utils/actions/workflows/tests.yml/badge.svg)](https://github.com/alphasnow/php-utils/actions/workflows/tests.yml)
