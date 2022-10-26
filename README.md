@@ -1,7 +1,10 @@
 AlphaSnow/Utils
 ===========
-[![tests](https://github.com/alphasnow/aliyun-oss-laravel/actions/workflows/tests.yml/badge.svg)](https://github.com/alphasnow/aliyun-oss-laravel/actions/workflows/tests.yml)
-
+[![License](https://poser.pugx.org/alphasnow/php-utils/license)](https://packagist.org/packages/alphasnow/php-utils)
+[![Latest Stable Version](https://poser.pugx.org/alphasnow/php-utils/v/stable)](https://packagist.org/packages/alphasnow/php-utils)
+[![Total Downloads](https://poser.pugx.org/alphasnow/php-utils/downloads)](https://packagist.org/packages/alphasnow/php-utils)
+[![tests](https://github.com/alphasnow/php-utils/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/alphasnow/php-utils/actions/workflows/tests.yml)
+[![Coverage Status](https://coveralls.io/repos/github/alphasnow/php-utils/badge.svg?branch=main)](https://coveralls.io/github/alphasnow/php-utils?branch=main)
 
 ## Requirement
 - PHP >= 7.2
