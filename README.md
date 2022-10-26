@@ -3,8 +3,8 @@ AlphaSnow/Utils
 
 [![Latest Stable Version](https://poser.pugx.org/alphasnow/utils/v/stable)](https://packagist.org/packages/alphasnow/utils)
 [![Total Downloads](https://poser.pugx.org/alphasnow/utils/downloads)](https://packagist.org/packages/alphasnow/utils)
-[![Tests](https://github.com/alphasnow/php-utils/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/alphasnow/php-utils/actions/workflows/tests.yml)
-[![Coverage Status](https://coveralls.io/repos/github/alphasnow/php-utils/badge.svg?branch=main)](https://coveralls.io/github/alphasnow/php-utils?branch=main)
+[![tests](https://github.com/alphasnow/php-utils/actions/workflows/tests.yml/badge.svg)](https://github.com/alphasnow/php-utils/actions/workflows/tests.yml)
+[![Coverage Status](https://coveralls.io/repos/github/alphasnow/php-utils/badge.svg?branch=0)](https://coveralls.io/github/alphasnow/php-utils?branch=0)
 
 ## Requirement
 - PHP >= 7.2

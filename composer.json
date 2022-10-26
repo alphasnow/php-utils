@@ -42,7 +42,7 @@
         "fix-style": "vendor/bin/php-cs-fixer fix --using-cache=no --config=.php-cs-fixer.dist.php --ansi",
         "phpstan": "vendor/bin/phpstan analyse --memory-limit=-1",
         "test": "vendor/bin/phpunit --testdox",
-        "coverall": "vendor/bin/php-coveralls"
+        "cover": "vendor/bin/php-coveralls"
     },
     "config": {
         "preferred-install": "dist",
