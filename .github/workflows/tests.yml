@@ -10,11 +10,9 @@ jobs:
   phpunit:
     strategy:
       matrix:
-        os: [ubuntu-latest]
         php-version: [7.2, 7.3, 7.4, 8.0, 8.1, 8.2]
-        dependency-version: [prefer-lowest, prefer-stable]
-    runs-on: ${{ matrix.os }}
-    name: P${{ matrix.php-version }} - ${{ matrix.dependency-version }} - ${{ matrix.os }}
+    runs-on: ubuntu-latest
+    name: PHP ${{ matrix.php-version }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -24,6 +22,6 @@ jobs:
           php-version: ${{ matrix.php-version }}
           coverage: xdebug
       - name: Install dependencies
-        run: composer install --${{ matrix.dependency-version }} --prefer-dist --no-interaction
+        run: composer install --prefer-dist --no-interaction
       - name: Run PHPUnit tests
         run: ./vendor/bin/phpunit
